@@ -1,0 +1,44 @@
+# 🛡️ Network Security Scanner
+
+Công cụ quét bảo mật mạng tự động, được xây dựng bằng Python.
+
+## 📌 Tính năng
+
+- Scan port và phát hiện dịch vụ đang chạy
+- Tự động tra cứu CVE (lỗ hổng bảo mật) theo phiên bản
+- Phát hiện hệ điều hành của target
+- Xuất báo cáo HTML chuyên nghiệp
+- Giao diện Web trực quan chạy trên browser
+
+## 🛠️ Công nghệ sử dụng
+
+- Python 3.x
+- Nmap
+- Flask
+- python-nmap
+- Rich
+
+## 🚀 Cách chạy
+
+Cài thư viện:
+pip install python-nmap flask requests rich
+
+Chạy web app:
+python app.py
+
+Mở browser vào: http://localhost:5000
+
+## 📸 Demo
+
+![Scanner Web Interface](demo.png)
+
+## 👨‍💻 Tác giả
+
+**Quan** — Sinh viên An toàn thông tin
+```
+
+---
+
+Sau đó chụp màn hình web app đang chạy, đặt tên file là `demo.png`, để vào Desktop luôn.
+
+Rồi chạy 3 lệnh này để đẩy README lên GitHub:
